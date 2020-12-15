@@ -1,0 +1,12 @@
+.items {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+h1 {
+  color: aliceblue;
+}
+span {
+  font-size: 22px;
+}

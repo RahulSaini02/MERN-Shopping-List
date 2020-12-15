@@ -1,0 +1,48 @@
+.item {
+  display: flex;
+  align-items: center;
+  background-color: #282e3c;
+  margin: 10px;
+  padding: 5px 15px;
+  min-width: 70%;
+  height: 50px;
+  border-radius: 5px;
+  justify-content: space-between;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  animation: fadeIn ease-in-out 0.8s;
+}
+.item p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.item:hover {
+  background-color: #907ad6;
+  color: white;
+}
+
+.delete,
+.edit {
+  background-color: inherit;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  outline: none;
+  color: #a583d7;
+}
+
+.item:hover .delete,
+.item:hover .edit {
+  color: #47108a;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
